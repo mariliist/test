@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@700&family=Open+Sans:wght@300&family=PT+Sans:ital@1&family=Roboto+Slab:wght@700&family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.navbar{
+    position: fixed;
+    right: 0;
+}
+
+.navigation {
+    display: grid;
+    text-transform: uppercase;
+    height: 100%;
+    background-color: #c85752;
+    color: #dfe1dc;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+a {
+    padding: 25px;
+    text-decoration: none;
+    color: #dfe1dc;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+
+
+.footer {
+    align-items: center;
+    height: 100px;
+    background-color: #c85752;
+    color: #dfe1dc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+
+.footer ul li {
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact p {
+    padding: 10px;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
+
+.footer ul li a {
+    color: #dfe1dc;
+    text-decoration: none;
+}
+

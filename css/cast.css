@@ -38,8 +38,8 @@ body {
     transform: scale(1.2);
 }
 
-.video{
-opacity: 0.8;
+.video {
+    opacity: 0.8;
 }
 
 .cast_image {
@@ -68,7 +68,7 @@ a {
     background-attachment: fixed;
 }
 
-.cast-image{
+.cast-image {
     background-image: url('../img/img33.webp');
     background-size: cover;
     height: 80vh;
@@ -159,19 +159,20 @@ a {
 
 @media (max-width: 520px) {
     .intro-image {
-        background-attachment:scroll;
+        background-attachment: scroll;
 
     }
-    
+
     .cast-image {
-        background-attachment:scroll;
+        background-attachment: scroll;
     }
-    
+
 
     .link {
         flex-direction: column;
     }
-    
+
     .introlink:hover {
-        transform:none;
+        transform: none;
     }
+}

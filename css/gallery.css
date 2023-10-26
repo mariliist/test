@@ -41,7 +41,7 @@ a {
 
 
 .intro-image {
-    background-image: url('../img/img3.jpg');
+    background-image: url('../img/image\ \(1\).png');
     background-size: cover;
     height: 80vh;
     display: flex;
@@ -89,7 +89,7 @@ a {
 /* järgmine vahe */
 .quality-image {
     height: 80vh;
-    background-image: url('../img/img4.jpg');
+    background-image: url('../img/img1.png');
     background-size: cover;
     background-position: top;
     display: flex;
@@ -166,49 +166,3 @@ span {
     color: #dfe1dc;
     text-decoration: none;
 }
-
-
-/* origin */
-
-/* .origin-image {
-    height: 450px;
-    background-image: url('../img/img5.webp');
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-attachment: fixed;
-
-}
-
-.originlink {
-    text-decoration: none;
-    background-color: #3c4a5450;
-    color: #dfe1dc;
-    padding: 1rem 2rem;
-    display: inline-block;
-    font-size: 2rem;
-    text-transform: uppercase;
-    transition: all 0.5s ease-in-out;
-    border-radius: 2px;
-}
-
-.originlink:hover {
-    transform: scale(1.2)
-}
-
-.origin-text {
-    height: 250px;
-    background-color: #555765;
-    color: #dfe1dc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 15rem;
-}
-
-.origin-text h3 {
-    font-size: 2rem;
-    text-transform: uppercase;
-    padding: 1rem;
-} */

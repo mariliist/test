@@ -11,20 +11,31 @@ body {
     text-align: center;
 }
 
-.navbar{
-    position: fixed;
-    right: 0;
-}
 
 .navigation {
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     text-transform: uppercase;
-    height: 100%;
-    background-color: #c85752;
+    background-color: #B11313;
     color: #dfe1dc;
-    padding-top: 1rem;
     font-size: 1.2rem;
-    padding-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    padding: 1.5rem;
+}
+
+.link {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cast_image {
+    display: flex;
+    height: 400px;
+    margin-top: 64px;
+    padding: 6px;
+    border-radius: 10px;
 }
 
 a {
@@ -35,14 +46,71 @@ a {
 }
 
 
+.intro-image {
+    background-image: url('../img/image\ \(1\).png');
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.introlink {
+    background-color: #c4443879;
+    color: #dfe1dc;
+    padding: 1rem 2rem;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    border-radius: 2px;
+}
+
+.introlink:hover {
+    transform: scale(1.2)
+}
 
 
+.intro-text {
+    display: flex;
+    background-color: #B11313;
+    color: #ececec;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
 
+}
 
+/* .intro-names{
+    display: flex;
+    background-color: #b11313f2;
+    color: #ececec;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+} */
+
+.text {
+    width: 70vw;
+}
+
+.intro-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+/* footer */
 .footer {
     align-items: center;
     height: 100px;
-    background-color: #c85752;
+    background-color: #B11313;
     color: #dfe1dc;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -67,4 +135,3 @@ a {
     color: #dfe1dc;
     text-decoration: none;
 }
-

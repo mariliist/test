@@ -25,12 +25,18 @@ body {
     padding: 1.5rem;
 }
 
-.link{
+.link {
     display: flex;
     flex-wrap: wrap;
 }
 
-
+.cast_image {
+    display: flex;
+    height: 400px;
+    margin-top: 64px;
+    padding: 6px;
+    border-radius: 10px;
+}
 
 a {
     padding: 25px;
@@ -41,7 +47,7 @@ a {
 
 
 .intro-image {
-    background-image: url('../img/image\ \(1\).png');
+    background-image: url('../img/image22.png');
     background-size: cover;
     height: 80vh;
     display: flex;
@@ -69,27 +75,18 @@ a {
 
 .intro-text {
     display: flex;
-    flex-direction: column;
     background-color: #B11313;
     color: #ececec;
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
-}
-.text{
-    width: 70vw;
+    flex-wrap: wrap;
+
 }
 
-.intro-text h3 {
-    font-size: 2rem;
-    text-transform: uppercase;
-    padding: 1rem;
-}
-
-/* järgmine vahe */
 .quality-image {
     height: 80vh;
-    background-image: url('../img/img1.png');
+    background-image: url('../img/image20.png');
     background-size: cover;
     background-position: top;
     display: flex;
@@ -127,11 +124,22 @@ a {
 }
 
 span {
-    font-weight:900;
+    font-weight: 900;
     color: #ffffff;
 }
 
 .quality-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+
+.text {
+    width: 70vw;
+}
+
+.intro-text h3 {
     font-size: 2rem;
     text-transform: uppercase;
     padding: 1rem;

@@ -30,6 +30,18 @@ body {
     flex-wrap: wrap;
 }
 
+.menu {
+    transition: all 0.5s ease-in-out;
+}
+
+.menu:hover {
+    transform: scale(1.2);
+}
+
+.video{
+opacity: 0.8;
+}
+
 .cast_image {
     display: flex;
     height: 400px;
@@ -47,7 +59,7 @@ a {
 
 
 .intro-image {
-    background-image: url('../img/img11.png');
+    background-image: url('../img/img11.webp');
     background-size: cover;
     height: 80vh;
     display: flex;
@@ -56,11 +68,22 @@ a {
     background-attachment: fixed;
 }
 
+.cast-image{
+    background-image: url('../img/img33.webp');
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+
+}
+
 .introlink {
     background-color: #c4443879;
     color: #dfe1dc;
     padding: 1rem 2rem;
-    display: inline-block;
+    display: flex;
     font-size: 2rem;
     text-transform: uppercase;
     text-decoration: none;
@@ -84,17 +107,6 @@ a {
 
 }
 
-/* .intro-names{
-    display: flex;
-    background-color: #b11313f2;
-    color: #ececec;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-} */
 
 .text {
     width: 70vw;
@@ -107,9 +119,13 @@ a {
 }
 
 /* footer */
+.hr {
+    width: 100%;
+    color: #DF1F2D;
+}
+
 .footer {
     align-items: center;
-    height: 100px;
     background-color: #B11313;
     color: #dfe1dc;
     padding-top: 15px;
@@ -119,12 +135,17 @@ a {
 
 
 .footer ul li {
+    padding-top: 24px;
     display: inline-block;
     transition: all 0.5s ease-in-out;
 }
 
-.contact p {
-    padding: 10px;
+.contact {
+    padding-bottom: 24px;
+}
+
+.team {
+    padding-top: 24px;
 }
 
 .footer ul li:hover {
@@ -135,3 +156,22 @@ a {
     color: #dfe1dc;
     text-decoration: none;
 }
+
+@media (max-width: 520px) {
+    .intro-image {
+        background-attachment:scroll;
+
+    }
+    
+    .cast-image {
+        background-attachment:scroll;
+    }
+    
+
+    .link {
+        flex-direction: column;
+    }
+    
+    .introlink:hover {
+        transform:none;
+    }

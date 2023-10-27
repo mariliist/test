@@ -191,23 +191,36 @@ span {
 }
 
 @media (max-width: 520px) {
-    .intro-image {
-        background-attachment:scroll;
+
+    .navigation {
+        display: block;
+        padding-TOP: 30px;
 
     }
-    
-    .quality-image {
-        background-attachment:scroll;
-    
+
+    a {
+        padding: 10px;
     }
     
+
+    .intro-image {
+        background-attachment: scroll;
+
+    }
+
+    .quality-image {
+        background-attachment: scroll;
+
+    }
+
 
     .link {
 
         flex-direction: column;
     }
+
     .introlink:hover {
-        transform:none;
+        transform: none;
     }
-    
+
 }

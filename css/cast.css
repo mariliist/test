@@ -158,21 +158,36 @@ a {
 }
 
 @media (max-width: 520px) {
+
+    .navigation {
+        display: block;
+        padding-TOP: 30px;
+
+    }
+
+    a {
+        padding: 10px;
+    }
+    
+
     .intro-image {
         background-attachment: scroll;
 
     }
 
-    .cast-image {
+    .quality-image {
         background-attachment: scroll;
+
     }
 
 
     .link {
+
         flex-direction: column;
     }
 
     .introlink:hover {
         transform: none;
     }
+
 }

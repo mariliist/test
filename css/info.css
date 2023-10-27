@@ -232,4 +232,8 @@ span {
         transform: none;
     }
 
+    .text {
+        font-size: larger;
+    }
+
 }

@@ -203,7 +203,7 @@ span {
     a {
         padding: 10px;
     }
-    
+
 
     .intro-image {
         background-attachment: scroll;
@@ -224,5 +224,10 @@ span {
     .introlink:hover {
         transform: none;
     }
+
+    .text {
+        font-size: larger;
+    }
+
 
 }

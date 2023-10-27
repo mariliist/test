@@ -200,4 +200,9 @@ a {
         width: 300px;
         height: 200px;
     }
+
+    .text {
+        font-size: larger;
+    }
+
 }
